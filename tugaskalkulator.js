@@ -13,4 +13,17 @@ if(Nilai1 == 1){
     var MasukanNilai1 = panggiluntukinput.questionInt('Masukan nilai 1= ')
     var MasukanNilai2 = panggiluntukinput.questionInt('Masukan nilai 2= ')
     console.log("Hasilnya adalah= " + (Number(MasukanNilai1)*(Number(MasukanNilai2))))
+}else if(Nilai1 =3 ){
+    var MasukanNilai1 = panggiluntukinput.questionInt('Masukan nilai 1= ')
+    var MasukanNilai2 = panggiluntukinput.questionInt('Masukan nilai 2= ')
+    console.log("Hasilnya adalah= " + (Number(MasukanNilai1)-(Number(MasukanNilai2))))
+}else if(Nilai1 == 4 ){
+    var MasukanNilai1 = panggiluntukinput.questionInt('Masukan nilai 1= ')
+    var MasukanNilai2 = panggiluntukinput.questionInt('Masukan nilai 2= ')
+    console.log("Hasilnya adalah= " + (Number(MasukanNilai1)/(Number(MasukanNilai2))))
+}else if(Nilai1 == 5 ){
+    var MasukanNilai1 = panggiluntukinput.questionInt('Masukan nilai 1= ')
+    var MasukanNilai2 = panggiluntukinput.questionInt('Masukan nilai 2= ')
+    console.log("Hasilnya adalah= " +(Number(MasukanNilai1)%(Number(MasukanNilai2))))
+ }
 }
